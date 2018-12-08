@@ -1,0 +1,290 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family:Arial, Narrow, sans-serif;
+	font-size: 14px;
+	color: black;
+	background-color: #ffffff;
+}
+
+
+.p_head {
+        font-size: 28px;
+        font-weight:bold;
+        vertical-align: middle;
+}
+        .p_head a {
+                 color: black;
+                 text-decoration: none;
+        }
+
+
+.copyright {
+	padding-top: 20px;
+	font-family:Arial, Narrow, sans-serif;
+	font-size: 12px;
+}
+ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-left:10;
+}
+
+
+.p_leftSub {
+	padding-top:5px;
+	position:relative;
+	width:225px;
+}
+
+.p_guide_nav {
+	cursor:pointer;
+	text-align:left;
+
+}
+        .p_guide_nav a {
+                color:black;
+                font-family:verdana,arial,helvetica,sans-serif;
+                font-size:14px;
+                font-weight:none;
+                text-decoration:none;
+        }
+        .p_guide_nav a:hover {
+                color:silver;
+                text-decoration:none;
+        }
+
+.p_info {
+-x-system-font:none;
+color:#1F1F1F;
+font-family:Arial;
+font-size:11pt;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+height:auto !important;
+line-height:normal;
+margin-top:10px;
+padding-left:12px;
+padding-right:12px;
+}
+
+.p_info a {
+color:#3A75B4;
+text-decoration:none;
+}
+.p_info a:hover {
+text-decoration:underline;
+}
+.p_info h4 {
+-x-system-font:none;
+color:#5DA2EC;
+font-family:Arial;
+font-size:12pt;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+padding:3px 0;
+}
+
+
+
+/* ######### Drop Down ULs CSS ######### */
+
+
+.ddsubmenustyle, .ddsubmenustyle ul{ /*topmost and sub ULs, respectively*/
+font: normal 13px Verdana;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+background: white;
+border: 1px solid black;
+border-bottom-width: 0;
+visibility: hidden;
+z-index: 100;
+}
+
+.ddsubmenustyle li a{
+display: block;
+width: 100px; /*width of menu (not including side paddings)*/
+color: black;
+background-color: lightyellow;
+text-decoration: none;
+padding: 4px 5px;
+border-bottom: 1px solid black;
+}
+
+* html .ddsubmenustyle li{ /*IE6 CSS hack*/
+display: inline-block;
+width: 110px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle li a:hover{
+background-color: black;
+color: white;
+}
+
+/* ######### Neutral CSS  ######### */
+
+.downarrowpointer{ /*CSS for "down" arrow image added to top menu items*/
+padding-left: 4px;
+border: 0;
+}
+
+.rightarrowpointer{ /*CSS for "right" arrow image added to drop down menu items*/
+position: absolute;
+padding-top: 3px;
+left: 100px;
+border: 0;
+}
+
+.ddiframeshim{
+position: absolute;
+z-index: 500;
+background: transparent;
+border-width: 0;
+width: 0;
+height: 0;
+display: block;
+}
+
+
+/* ######### Matt Black Strip Main Menu Bar CSS ######### */
+
+.mattblackmenu ul{
+margin: 0;
+padding: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+border-bottom: 1px solid gray;
+background: #414141;
+overflow: hidden;
+width: 100%;
+}
+
+.mattblackmenu li{
+display: inline;
+margin: 0;
+}
+
+.mattblackmenu li a{
+float: left;
+display: block;
+text-decoration: none;
+margin: 0;
+padding: 6px 8px; /*padding inside each tab*/
+border-right: 1px solid white; /*right divider between tabs*/
+color: white;
+background: #414141;
+}
+
+.mattblackmenu li a:visited{
+color: white;
+}
+
+.mattblackmenu li a:hover{
+background: black; /*background of tabs for hover state */
+}
+
+.mattblackmenu a.selected{
+background: black; /*background of tab with "selected" class assigned to its LI */
+}
+
+
+.ltable{
+        background-color:#FFFFFF;
+        margin:8px 0;
+        color: black;
+        text-align:center;
+}
+        .ltable th{
+         background-color:#CDDDDF;
+         padding:3px;
+
+        }
+        .ltable td{
+         background-color:#DDEDFF;
+         padding:3px;
+         text-align:center;
+        }
+
+        .ltable a{
+         text-decoration: none;
+         color:black;
+         text-align:center;
+        }
+        .ltable a:hover{
+         font-weight: bold;
+        }
+
+.itable{
+        background-color:#FFFFFF;
+        color: black;
+        text-align:center;
+}
+        .itable th{
+         background-color:#CDDDDF;
+         padding:3px;
+
+        }
+        .itable td{
+         background-color:#DDEDFF;
+         padding:3px;
+         text-align:left;
+	 line-height: 140%;
+        }
+.iitable{
+        background-color:#DDEDFF;
+        margin:8px 0;
+        color: black;
+        text-align:center;
+}
+        .iitable th{
+         background-color:#CDDDDF;
+         padding:3px;
+
+        }
+        .iitable td{
+         background-color:#DDEDFF;
+         padding:3px;
+         text-align:left;
+	 line-height: 140%;
+        }
+.dtable{
+        background-color:#FFFFFF;
+        margin:8px 0;
+        color: black;
+        text-align:center;
+}
+        .dtable th{
+         background-color:#CDDDDF;
+         padding:3px;
+
+        }
+        .dtable td{
+         background-color:#DDEDFF;
+         padding:3px;
+         text-align:center;
+        }
+
+        .dtable a{
+         text-decoration: none;
+         color:black;
+         text-align:center;
+        }
+        .dtable a:hover{
+         font-weight: bold;
+        }
+
+
