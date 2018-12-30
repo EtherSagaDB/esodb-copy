@@ -1,136 +1,523 @@
-/**Взято с eso.perfectworld.com**/
+/**пїЅпїЅпїЅпїЅпїЅ пїЅ eso.perfectworld.com**/
 
-.p_info td	{ padding: 2px; }
-.p_info th	{ padding: 2px; text-align: left; vertical-align: top; }
-.p_info p	{ padding: 2px 0px; }
+.p_info td {
+    padding: 2px;
+}
+
+.p_info th {
+    padding: 2px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.p_info p {
+    padding: 2px 0px;
+}
+
 
 /** Class **/
-.p_subClass	{  }
-	.p_subClass h2 { color: #5da2ec; font: 12pt Arial; padding: 3px 0; font-weight: bold; }
-	.p_subClass p span  { color: #5da2ec; font-weight: bold; }
 
-.p_subClass_skill table	{ width: 100%; }
-.p_subClass_skill th	{ text-align: center; padding: 2px; vertical-align: top; }
-.p_subClass_skill td 	{ padding: 2px; }
-	
+.p_subClass {}
+
+.p_subClass h2 {
+    color: #5da2ec;
+    font: 12pt Arial;
+    padding: 3px 0;
+    font-weight: bold;
+}
+
+.p_subClass p span {
+    color: #5da2ec;
+    font-weight: bold;
+}
+
+.p_subClass_skill table {
+    width: 100%;
+}
+
+.p_subClass_skill th {
+    text-align: center;
+    padding: 2px;
+    vertical-align: top;
+}
+
+.p_subClass_skill td {
+    padding: 2px;
+}
+
+
 /** Global Pet **/
-.p_subPet	{ font: 11pt Arial; }
-	.p_subPet div	{ margin: 5px; 0; }
-	.p_subPet th { text-align: left; vertical-align: top; }
-	.p_subPet h2 { color: #5da2ec; font: 12pt Arial; padding: 3px 0; font-weight: bold; }
-	.p_subPet li { padding-left: 15px; padding-top: 3px; padding-bottom: 3px; }
-	.p_subPet span	{ color: #f3670a; font: 11pt Arial; font-weight: bold; }
+
+.p_subPet {
+    font: 11pt Arial;
+}
+
+.p_subPet div {
+    margin: 5px;
+    0;
+}
+
+.p_subPet th {
+    text-align: left;
+    vertical-align: top;
+}
+
+.p_subPet h2 {
+    color: #5da2ec;
+    font: 12pt Arial;
+    padding: 3px 0;
+    font-weight: bold;
+}
+
+.p_subPet li {
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.p_subPet span {
+    color: #f3670a;
+    font: 11pt Arial;
+    font-weight: bold;
+}
+
 
 /** Pet General **/
-.p_subPet_info { background: url('../img/guide/npc_roorthehunter.jpg') no-repeat; height: 267px; padding-left: 155px; padding-top: 6px; }
-	.p_subPet_info span	{ color: #f3670a; font: 11pt Arial; font-weight: bold; }
 
-.p_subPet_intro	 li { list-style: disc outside; margin: 0px; padding: 2px; }
-.p_subPet_intro	 ul { margin-left: 20px; }
+.p_subPet_info {
+    background: url('../img/guide/npc_roorthehunter.jpg') no-repeat;
+    height: 267px;
+    padding-left: 155px;
+    padding-top: 6px;
+}
 
-.p_subPet_rename { background: url('../img/guide/pet_dialog_rename.jpg') no-repeat right; padding-right: 200px; margin: 10px 0; }
-.p_subPet_revive { background: url('../img/guide/pet_dialog_revive.jpg') no-repeat left; padding-left: 200px; margin: 10px 0; }
-.p_subPet_forge { background: url('../img/guide/pet_dialog_forge.jpg') no-repeat right; padding-right: 200px; margin: 10px 0; }
-.p_subPet_verni { background: url('../img/guide/npc_vernitrapper.jpg') no-repeat right; padding-right: 200px; margin: 10px 0; }
+.p_subPet_info span {
+    color: #f3670a;
+    font: 11pt Arial;
+    font-weight: bold;
+}
+
+.p_subPet_intro li {
+    list-style: disc outside;
+    margin: 0px;
+    padding: 2px;
+}
+
+.p_subPet_intro ul {
+    margin-left: 20px;
+}
+
+.p_subPet_rename {
+    background: url('../img/guide/pet_dialog_rename.jpg') no-repeat right;
+    padding-right: 200px;
+    margin: 10px 0;
+}
+
+.p_subPet_revive {
+    background: url('../img/guide/pet_dialog_revive.jpg') no-repeat left;
+    padding-left: 200px;
+    margin: 10px 0;
+}
+
+.p_subPet_forge {
+    background: url('../img/guide/pet_dialog_forge.jpg') no-repeat right;
+    padding-right: 200px;
+    margin: 10px 0;
+}
+
+.p_subPet_verni {
+    background: url('../img/guide/npc_vernitrapper.jpg') no-repeat right;
+    padding-right: 200px;
+    margin: 10px 0;
+}
+
 
 /** Pet Catch **/
-.p_subPet_verni2 { background: url('../img/guide/npc_vernitrapper.jpg') no-repeat right; height: 227px; padding-right: 200px; margin: 10px 0; }
-.p_subPet_capture { background: url('../img/guide/pet_capture_window.jpg') no-repeat left; height: 327px; padding-left: 240px; margin: 10px 0; }
+
+.p_subPet_verni2 {
+    background: url('../img/guide/npc_vernitrapper.jpg') no-repeat right;
+    height: 227px;
+    padding-right: 200px;
+    margin: 10px 0;
+}
+
+.p_subPet_capture {
+    background: url('../img/guide/pet_capture_window.jpg') no-repeat left;
+    height: 327px;
+    padding-left: 240px;
+    margin: 10px 0;
+}
+
 
 /** Pet list **/
-.p_subPet_list table { width: 669px; margin: 10px 0; }
-.p_subPet_list img	{ text-align: center; padding-left: 1px; }
+
+.p_subPet_list table {
+    width: 669px;
+    margin: 10px 0;
+}
+
+.p_subPet_list img {
+    text-align: center;
+    padding-left: 1px;
+}
+
 
 /** Pet Bg **/
-.p_subPet_tigero	{ background: url('../img/guide/pet_tigero_image.jpg') no-repeat bottom right; padding-right: 0px; }
-.p_subPet_assassin	{ background: url('../img/guide/pet_assassin_image.jpg') no-repeat right; padding-right: 200px; }
-.p_subPet_homunkitten{ background: url('../img/guide/pet_homunkitten_image.jpg') no-repeat left; padding-left: 130px; }
-.p_subPet_alabaster{ background: url('../img/guide/pet_alabaster_image.jpg') no-repeat bottom right; padding-right: 130px; }
+
+.p_subPet_tigero {
+    background: url('../img/guide/pet_tigero_image.jpg') no-repeat bottom right;
+    padding-right: 0px;
+}
+
+.p_subPet_assassin {
+    background: url('../img/guide/pet_assassin_image.jpg') no-repeat right;
+    padding-right: 200px;
+}
+
+.p_subPet_homunkitten {
+    background: url('../img/guide/pet_homunkitten_image.jpg') no-repeat left;
+    padding-left: 130px;
+}
+
+.p_subPet_alabaster {
+    background: url('../img/guide/pet_alabaster_image.jpg') no-repeat bottom right;
+    padding-right: 130px;
+}
+
 
 /** Pet Menu **/
-.p_subPet_menu	{ background: url('../img/guide/pet_menu_panel.html') no-repeat left; height: 227px; padding-left: 320px; }
-.p_subPet_hotkey{ background: url('../img/guide/pet_menu_hotkey.html') no-repeat bottom; height: 130px; }
+
+.p_subPet_menu {
+    background: url('../img/guide/pet_menu_panel.html') no-repeat left;
+    height: 227px;
+    padding-left: 320px;
+}
+
+.p_subPet_hotkey {
+    background: url('../img/guide/pet_menu_hotkey.html') no-repeat bottom;
+    height: 130px;
+}
+
 
 /** Pet Values **/
-.p_subPet_values table	{ background-color: #ebebeb; width: 669px; }
-.p_subPet_values th	{ background-color: #ffffff; text-align: center; padding: 2px; }
-.p_subPet_values td	{ background-color: #ffffff; padding: 2px; }
+
+.p_subPet_values table {
+    background-color: #ebebeb;
+    width: 669px;
+}
+
+.p_subPet_values th {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2px;
+}
+
+.p_subPet_values td {
+    background-color: #ffffff;
+    padding: 2px;
+}
+
 
 /** Ethyr **/
-.p_ethyr {  }	
-	.p_ethyr span	{ color: #f3670a; font: 11pt Arial; font-weight: bold; }
-	.p_ethyr table	{ margin: 5px 0;}
 
-.p_ethyr_general	{ background: url('../img/guide/ethyr_image.html') no-repeat right; height: 282px; padding-right: 200px; }
+.p_ethyr {}
+
+.p_ethyr span {
+    color: #f3670a;
+    font: 11pt Arial;
+    font-weight: bold;
+}
+
+.p_ethyr table {
+    margin: 5px 0;
+}
+
+.p_ethyr_general {
+    background: url('../img/guide/ethyr_image.html') no-repeat right;
+    height: 282px;
+    padding-right: 200px;
+}
+
 
 /** Vocation **/
-.p_vocation {  }	
-	.p_vocation span	{ color: #f3670a; font: 11pt Arial; font-weight: bold; }
-	.p_vocation table	{ margin: 5px 0;}
 
-.p_vocation_roki		{ background: url('../img/guide/npc_craftsman.jpg') no-repeat left; height: 337px; padding-left: 150px; margin: 10px 0; }
-.p_vocation_stouttiger	{ background: url('../img/guide/vocation_StoutTigerCorpse.jpg') no-repeat bottom right; padding-right: 0px; }
+.p_vocation {}
+
+.p_vocation span {
+    color: #f3670a;
+    font: 11pt Arial;
+    font-weight: bold;
+}
+
+.p_vocation table {
+    margin: 5px 0;
+}
+
+.p_vocation_roki {
+    background: url('../img/guide/npc_craftsman.jpg') no-repeat left;
+    height: 337px;
+    padding-left: 150px;
+    margin: 10px 0;
+}
+
+.p_vocation_stouttiger {
+    background: url('../img/guide/vocation_StoutTigerCorpse.jpg') no-repeat bottom right;
+    padding-right: 0px;
+}
 
 
 /** Community **/
-.p_subCommunity	{ font: 11pt Arial; }
-	.p_subCommunity li		{ padding: 2px 0; }
-	.p_subCommunity span	{ color: #f3670a; font: 11pt Arial; font-weight: bold; }
-	
-.p_clan				{ background: url('../img/guide/npc_partnership.jpg') no-repeat right; padding-right: 100px; }
-.p_alliance			{ background: url('../img/guide/npc_partnership.jpg') no-repeat right; height:293px; padding-right: 100px; }
-.p_allianceMember	{ background: url('../img/guide/alliance_image.jpg') no-repeat left; padding-left: 0px; }
-.p_chat				{ background: url('../img/guide/chat_dialog.jpg') no-repeat 200px 5px; margin: 5px 0; }
-.p_marriage 		{ background: url('../img/guide/marriage_image.jpg') no-repeat top right; height:322px; padding-left: 0px; margin: 5px 0; }
-.p_friends 			{ background: url('../img/guide/friend_dialog.jpg') no-repeat top right; padding-right: 0px; margin: 5px 0; }
-.p_pvp				{ background: url('../img/guide/pvp_image.jpg') no-repeat top right; padding-right: 0px; margin: 5px 0; }
+
+.p_subCommunity {
+    font: 11pt Arial;
+}
+
+.p_subCommunity li {
+    padding: 2px 0;
+}
+
+.p_subCommunity span {
+    color: #f3670a;
+    font: 11pt Arial;
+    font-weight: bold;
+}
+
+.p_clan {
+    background: url('../img/guide/npc_partnership.jpg') no-repeat right;
+    padding-right: 100px;
+}
+
+.p_alliance {
+    background: url('../img/guide/npc_partnership.jpg') no-repeat right;
+    height: 293px;
+    padding-right: 100px;
+}
+
+.p_allianceMember {
+    background: url('../img/guide/alliance_image.jpg') no-repeat left;
+    padding-left: 0px;
+}
+
+.p_chat {
+    background: url('../img/guide/chat_dialog.jpg') no-repeat 200px 5px;
+    margin: 5px 0;
+}
+
+.p_marriage {
+    background: url('../img/guide/marriage_image.jpg') no-repeat top right;
+    height: 322px;
+    padding-left: 0px;
+    margin: 5px 0;
+}
+
+.p_friends {
+    background: url('../img/guide/friend_dialog.jpg') no-repeat top right;
+    padding-right: 0px;
+    margin: 5px 0;
+}
+
+.p_pvp {
+    background: url('../img/guide/pvp_image.jpg') no-repeat top right;
+    padding-right: 0px;
+    margin: 5px 0;
+}
+
 
 /** Nascent **/
-.p_nascent	table { width: 100%; }
+
+.p_nascent table {
+    width: 100%;
+}
+
 
 /** Improving **/
-.p_improving	{ font: 11pt Arial; }
-	.p_improving div	{ margin: 5px; 0px; }
-	.p_improving h2 { color: #5da2ec; font: 12pt Arial; padding: 3px 0; font-weight: bold; }
-	.p_improving li { padding-left: 15px; padding-top: 3px; padding-bottom: 3px; }
-	.p_improving span	{ color: #f3670a; font: 11pt Arial; font-weight: bold; }
 
-.p_improving_dialog	{ background: url('../img/guide/improving_dialog_imbue.html') no-repeat top right; padding-right: 0px; }
-.p_improving_embed	{ background: url('../img/guide/improving_dialog_embed.html') no-repeat top left; height:277px; padding-left: 180px; }
-.p_improving_blacksmith	{ background: url('../img/guide/npc_blacksmith.html') no-repeat top right; padding-right: 200px; }
-.p_improving_socketing	{ background: url('../img/guide/improving_socket_image.jpg') no-repeat top right; padding-right: 200px; }
-.p_improving_soulstone	{ background: url('../img/guide/improving_soulstone_image.jpg') no-repeat top right; padding-right: 200px; }
-.p_improving_combat	{ background: url('../img/guide/improving_combat_image.jpg') no-repeat top right; height:296px; padding-right: 200px; }
+.p_improving {
+    font: 11pt Arial;
+}
 
-.p_improving_mount	table { width: 100%; }
-.p_improving_mount th	{ vertical-align: middle; }
-.p_improving_mount td img	{ width: 50px; }
+.p_improving div {
+    margin: 5px;
+    0px;
+}
 
-.p_improving_gems	table { width: 100%; }
-.p_improving_demolishing{  background: url('../img/guide/npc_demolishing.jpg') no-repeat top right; height:318px; }
+.p_improving h2 {
+    color: #5da2ec;
+    font: 12pt Arial;
+    padding: 3px 0;
+    font-weight: bold;
+}
+
+.p_improving li {
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.p_improving span {
+    color: #f3670a;
+    font: 11pt Arial;
+    font-weight: bold;
+}
+
+.p_improving_dialog {
+    background: url('../img/guide/improving_dialog_imbue.html') no-repeat top right;
+    padding-right: 0px;
+}
+
+.p_improving_embed {
+    background: url('../img/guide/improving_dialog_embed.html') no-repeat top left;
+    height: 277px;
+    padding-left: 180px;
+}
+
+.p_improving_blacksmith {
+    background: url('../img/guide/npc_blacksmith.html') no-repeat top right;
+    padding-right: 200px;
+}
+
+.p_improving_socketing {
+    background: url('../img/guide/improving_socket_image.jpg') no-repeat top right;
+    padding-right: 200px;
+}
+
+.p_improving_soulstone {
+    background: url('../img/guide/improving_soulstone_image.jpg') no-repeat top right;
+    padding-right: 200px;
+}
+
+.p_improving_combat {
+    background: url('../img/guide/improving_combat_image.jpg') no-repeat top right;
+    height: 296px;
+    padding-right: 200px;
+}
+
+.p_improving_mount table {
+    width: 100%;
+}
+
+.p_improving_mount th {
+    vertical-align: middle;
+}
+
+.p_improving_mount td img {
+    width: 50px;
+}
+
+.p_improving_gems table {
+    width: 100%;
+}
+
+.p_improving_demolishing {
+    background: url('../img/guide/npc_demolishing.jpg') no-repeat top right;
+    height: 318px;
+}
+
 
 /** Extra **/
-.p_extra	{ font: 11pt Arial; }
-	.p_extra div	{ margin: 5px; 0px; }
-	.p_extra h2 { color: #5da2ec; font: 12pt Arial; padding: 3px 0; font-weight: bold; }
-	.p_extra li { padding-left: 15px; padding-top: 3px; padding-bottom: 3px; }
-	.p_extra span	{ color: #f3670a; font: 11pt Arial; font-weight: bold; }
-	
-.p_extra_skycombat	{ background: url('../img/guide/extra_skycombat_image.jpg') no-repeat top right; height:376px; padding-right: 200px; }
-.p_extra_macro		{ background: url('../img/guide/extra_macro_image.jpg') no-repeat top right; height:292px; padding-right: 200px; }
-.p_extra_possessor	{ background: url('../img/guide/extra_possessor_image.jpg') no-repeat top right; height:379px; padding-right: 180px; }
-.p_extra_possessor_dialog	{ background: url('../img/guide/extra_possessor_dialog.jpg') no-repeat top left; padding-left: 380px; }
+
+.p_extra {
+    font: 11pt Arial;
+}
+
+.p_extra div {
+    margin: 5px;
+    0px;
+}
+
+.p_extra h2 {
+    color: #5da2ec;
+    font: 12pt Arial;
+    padding: 3px 0;
+    font-weight: bold;
+}
+
+.p_extra li {
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.p_extra span {
+    color: #f3670a;
+    font: 11pt Arial;
+    font-weight: bold;
+}
+
+.p_extra_skycombat {
+    background: url('../img/guide/extra_skycombat_image.jpg') no-repeat top right;
+    height: 376px;
+    padding-right: 200px;
+}
+
+.p_extra_macro {
+    background: url('../img/guide/extra_macro_image.jpg') no-repeat top right;
+    height: 292px;
+    padding-right: 200px;
+}
+
+.p_extra_possessor {
+    background: url('../img/guide/extra_possessor_image.jpg') no-repeat top right;
+    height: 379px;
+    padding-right: 180px;
+}
+
+.p_extra_possessor_dialog {
+    background: url('../img/guide/extra_possessor_dialog.jpg') no-repeat top left;
+    padding-left: 380px;
+}
+
 
 /** System **/
-.p_system	{ font: 11pt Arial; }
-	.p_system div	{ margin: 5px; 0px; }
-	.p_system h2 { color: #5da2ec; font: 12pt Arial; padding: 3px 0; font-weight: bold; }
-	.p_system li { list-style: disc outside; padding: 2px; margin-left: 5px; }
-	.p_system span	{ color: #f3670a; font: 11pt Arial; font-weight: bold; }
 
-.p_system_system	 { background: url('../img/guide/system_image.jpg') no-repeat top right; padding-right: 200px; }
-.p_system_interface	 { background: url('../img/guide/system_interface.jpg') no-repeat top right; padding-right: 250px; }
-.p_system_preferences{ background: url('../img/guide/system_preferences.jpg') no-repeat top right; height:410px; padding-right: 280px; }
+.p_system {
+    font: 11pt Arial;
+}
+
+.p_system div {
+    margin: 5px;
+    0px;
+}
+
+.p_system h2 {
+    color: #5da2ec;
+    font: 12pt Arial;
+    padding: 3px 0;
+    font-weight: bold;
+}
+
+.p_system li {
+    list-style: disc outside;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.p_system span {
+    color: #f3670a;
+    font: 11pt Arial;
+    font-weight: bold;
+}
+
+.p_system_system {
+    background: url('../img/guide/system_image.jpg') no-repeat top right;
+    padding-right: 200px;
+}
+
+.p_system_interface {
+    background: url('../img/guide/system_interface.jpg') no-repeat top right;
+    padding-right: 250px;
+}
+
+.p_system_preferences {
+    background: url('../img/guide/system_preferences.jpg') no-repeat top right;
+    height: 410px;
+    padding-right: 280px;
+}
+
 
 /** guide navigation **/
-.p_guide_nav { cursor: pointer; cursor: hand; }
+
+.p_guide_nav {
+    cursor: pointer;
+    cursor: hand;
+}
