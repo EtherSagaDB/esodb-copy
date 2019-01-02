@@ -21,9 +21,7 @@ html {
 }
 
 
-.logo {
-    text-align: center;
-}
+
 
 body {
         margin: 0px;
@@ -31,6 +29,10 @@ body {
         font-family: Arial, Narrow, sans-serif;
         font-size: 14px;
         color: black;
+    }
+
+    .logo {
+        text-align: center;
     }
     
     .p_head {
