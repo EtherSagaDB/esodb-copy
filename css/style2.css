@@ -359,3 +359,7 @@ body {
         margin-left: 600px;
         margin-right: 600px
     }
+
+    .ddiframeshim {
+        display:none;
+    }
