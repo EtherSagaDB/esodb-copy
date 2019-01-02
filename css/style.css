@@ -21,7 +21,9 @@ html {
 }
 
 
-
+.logo {
+    text-align: center;
+}
 
 body {
         margin: 0px;
@@ -29,10 +31,6 @@ body {
         font-family: Arial, Narrow, sans-serif;
         font-size: 14px;
         color: black;
-    }
-
-    .logo {
-        text-align: center;
     }
     
     .p_head {
@@ -232,7 +230,7 @@ body {
         border-right: 1px solid white;
         /*right divider between tabs*/
         color: white;
-        background: #black;
+        background: #000000;
         border-radius: 5px;
     }
     
