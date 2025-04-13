@@ -1,542 +1,770 @@
 <html>
-
-<head>
+  <head>
     <title>Ether Saga Database (beta-version)</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
-    <meta http-equiv="Content-Language" content="en">
-    <meta name="description" content="">
-    <meta name="keywords" content="Ether Saga database, ESO, base, Online, MMO, MMORPG, Game">
-    <meta name="verify-v1" content="luTd9acmIckA4VZqetnPxmpt00KP4+E4gTM9EjynGPE=">
-    <link rel="icon" type="image/x-icon" href="http://esodb.ru/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="Ether Saga database, ESO, base, Online, MMO, MMORPG, Game"
+    />
+    <meta
+      name="verify-v1"
+      content="luTd9acmIckA4VZqetnPxmpt00KP4+E4gTM9EjynGPE="
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://old.ethersagadb.com/favicon.ico"
+    />
     <link rel="stylesheet" href="../../css/style.css" type="text/css" />
-</head>
-<body>
-    <table width=100% border=0 cellpadding=0 cellspacing=0>
+  </head>
+  <body>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" style="height: 50px; vertical-align: middle">
+          <table>
             <tr>
-                    <td align="center" style="height: 50px;vertical-align: middle;">
-                        <table>
-                            <tr>
-                                <td class="p_head" style="vertical-align: middle;">
-                                    <a href="index.html"><img src="../../img/logo-mini.png" style="border:0;"></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-        <tr align="center">
-            <td>
-                <table>
-                    <tr>
-                        <td>
-                            <script type="text/javascript" src="../../js/menu.js">
-                            </script>
-                            <div id="ddtopmenubar" class="mattblackmenu">
-                                <ul>
-                                    <li><a href="search.html" rel="ddsubmenu1">Items</a></li>
-                                    <li><a href="../mobs/search.html" rel="ddsubmenu2">Monsters</a></li>
-                                    <li><a href="../pets/search.html" rel="ddsubmenu3">Pets</a></li>
-                                    <li><a href="../npc.html">NPC</a></li>
-                                    <li><a href="../quests/search.html">Quests</a></li>
-                                    <li><a href="#"><font color=grey>Skills</font></a></li>
-                                </ul>
-                            </div>
-                            <script type="text/javascript">
-                                ddlevelsmenu.setup("ddtopmenubar", "topbar");
-                            </script>
-                            <ul id="ddsubmenu2" class="ddsubmenustyle">
-                                <li><a href="../mobs/search.html">Search</a></li>
-                                <li><a href="../mobs.html">Full List</a></li>
-                            </ul>
-                            <ul id="ddsubmenu3" class="ddsubmenustyle">
-                                <li><a href="search.html">Search</a></li>
-                                <li><a href="../pets.html">List</a></li>
-                                <li><a href="food.html">Pet Food</a></li>
-                                <li><a href="bells.html">Bells</a></li>
-                                <li><a href="pskills.html">Pet Skill`s</a></li>
-                            </ul>
-                            <ul id="ddsubmenu1" class="ddsubmenustyle">
-                                <li><a href="search.html">Search</a></li>
-                                <li><a href="equips/weapon.html">Weapon</a>
-                                    <ul>
-                                        <li><a href="equips/weapon_s.html">Long spear</a></li>
-                                        <li><a href="equips/weapon_d.html">Dagger</a></li>
-                                        <li><a href="equips/weapon_b.html">Bow</a></li>
-                                        <li><a href="equips/weapon_i.html">Invoken</a></li>
-                                        <li><a href="equips/weapon_w.html">War Hammer</a></li>
-                                        <li><a href="equips/weapon_t.html">Staff</a></li>
-                                        <li><a href="equips/weapon_a.html">Axe</a></li>
-                                        <li><a href="equips/weapon_sc.html">Scepter</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="equips/armor.html">Armor</a>
-                                    <ul>
-                                        <li><a href="equips/armor_m.html">Male</a>
-                                            <ul>
-                                                <li><a href="equips/armor_ms.html">S.Armor</a>
-                                                    <ul>
-                                                        <li><a href="equips/armor_msc.html">Clothing</a></li>
-                                                        <li><a href="equips/armor_msh.html">Headwear</a></li>
-                                                        <li><a href="equips/armor_msf.html">Footwear</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="equips/armor_mg.html">G.Armor</a>
-                                                    <ul>
-                                                        <li><a href="equips/armor_mgc.html">Clothing</a></li>
-                                                        <li><a href="equips/armor_mgh.html">Headwear</a></li>
-                                                        <li><a href="equips/armor_mgf.html">Footwear</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="equips/armor_ma.html">A.Armor</a>
-                                                    <ul>
-                                                        <li><a href="equips/armor_mac.html">Clothing</a></li>
-                                                        <li><a href="equips/armor_mah.html">Headwear</a></li>
-                                                        <li><a href="equips/armor_maf.html">Footwear</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="equips/armor_mm.html">Mogui</a>
-                                                    <ul>
-                                                        <li><a href="equips/armor_mmg.html">G.Armor</a>
-                                                            <ul>
-                                                                <li><a href="equips/armor_mmgc.html">Clothing</a></li>
-                                                                <li><a href="equips/armor_mmgh.html">Headwear</a></li>
-                                                                <li><a href="equips/armor_mmgf.html">Footwear</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="equips/armor_mma.html">A.Armor</a>
-                                                            <ul>
-                                                                <li><a href="equips/armor_mmac.html">Clothing</a></li>
-                                                                <li><a href="equips/armor_mmah.html">Headwear</a></li>
-                                                                <li><a href="equips/armor_mmaf.html">Footwear</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="equips/armor_f.html">Female</a>
-                                            <ul>
-                                                <li><a href="equips/armor_fs.html">S.Armor</a>
-                                                    <ul>
-                                                        <li><a href="equips/armor_fsc.html">Clothing</a></li>
-                                                        <li><a href="equips/armor_fsh.html">Headwear</a></li>
-                                                        <li><a href="equips/armor_fsf.html">Footwear</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="equips/armor_fg.html">G.Armor</a>
-                                                    <ul>
-                                                        <li><a href="equips/armor_fgc.html">Clothing</a></li>
-                                                        <li><a href="equips/armor_fgh.html">Headwear</a></li>
-                                                        <li><a href="equips/armor_fgf.html">Footwear</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="equips/armor_fa.html">A.Armor</a>
-                                                    <ul>
-                                                        <li><a href="equips/armor_fac.html">Clothing</a></li>
-                                                        <li><a href="equips/armor_fah.html">Headwear</a></li>
-                                                        <li><a href="equips/armor_faf.html">Footwear</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="equips/armor_fm.html">Mogui</a>
-                                                    <ul>
-                                                        <li><a href="equips/armor_fmg.html">S.Armor</a>
-                                                            <ul>
-                                                                <li><a href="equips/armor_fmgc.html">Clothing</a></li>
-                                                                <li><a href="equips/armor_fmgh.html">Headwear</a></li>
-                                                                <li><a href="equips/armor_fmgf.html">Footwear</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="equips/armor_fma.html">A.Armor</a>
-                                                            <ul>
-                                                                <li><a href="equips/armor_fmac.html">Clothing</a></li>
-                                                                <li><a href="equips/armor_fmah.html">Headwear</a></li>
-                                                                <li><a href="equips/armor_fmaf.html">Footwear</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="equips/accessories.html">Accessories</a></li>
-                                <li><a href="equips/fashion.html">Fashion</a></li>
-                                <li><a href="imp.html">Craft</a></li>
-                                <li><a href="recipie.html">Recipie</a></li>
-                                <li><a href="cards.html">Cards</a></li>
-                                <li><a href="potions.html">Potions</a></li>
-                                <li><a href="items.html">Items</a></li>
-                                <li><a href="questi.html">Quest Items</a></li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-        <tr align="center">
-            <td>
-                <table cellspacing=3 cellpadding=2 border=0 width="500" class="ltable">
-                    <tr>
-                        <th width=50>�</th>
-                        <th width=100>Icon</th>
-                        <th width=350>Name</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>
-                            <a href="131.html"><img src="../../img/icons/ico_00979.gif"></a>
-                        </td>
-                        <td><a href="131.html">Gold</a></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>
-                            <a href="133.html"><img src="../../img/icons/ico_01148.gif"></a>
-                        </td>
-                        <td><a href="133.html">Angelic Bell</a></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>
-                            <a href="5145.html"><img src="../../img/icons/ico_00790.gif"></a>
-                        </td>
-                        <td><a href="5145.html">Wood</a></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>
-                            <a href="5146.html"><img src="../../img/icons/ico_00719.gif"></a>
-                        </td>
-                        <td><a href="5146.html">Stone</a></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>
-                            <a href="5147.html"><img src="../../img/icons/ico_00897.gif"></a>
-                        </td>
-                        <td><a href="5147.html">Phoenix Copper</a></td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>
-                            <a href="5148.html"><img src="../../img/icons/ico_01800.gif"></a>
-                        </td>
-                        <td><a href="5148.html">Kunlun Jade</a></td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>
-                            <a href="5149.html"><img src="../../img/icons/ico_01029.gif"></a>
-                        </td>
-                        <td><a href="5149.html">Lightbender Stone</a></td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>
-                            <a href="5150.html"><img src="../../img/icons/ico_01165.gif"></a>
-                        </td>
-                        <td><a href="5150.html">Iron Ore</a></td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>
-                            <a href="5151.html"><img src="../../img/icons/ico_01187.gif"></a>
-                        </td>
-                        <td><a href="5151.html">Bonesetting Herbs</a></td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>
-                            <a href="5152.html"><img src="../../img/icons/ico_01397.gif"></a>
-                        </td>
-                        <td><a href="5152.html">Acerbic Tree branch</a></td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>
-                            <a href="5153.html"><img src="../../img/icons/ico_01381.gif"></a>
-                        </td>
-                        <td><a href="5153.html">Fortune Scroll</a></td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <td>
-                            <a href="5191.html"><img src="../../img/icons/ico_02851.gif"></a>
-                        </td>
-                        <td><a href="5191.html">Red Banded Yarn</a></td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>
-                            <a href="5192.html"><img src="../../img/icons/ico_02848.gif"></a>
-                        </td>
-                        <td><a href="5192.html">Ancestral Crystal</a></td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>
-                            <a href="5196.html"><img src="../../img/icons/ico_00905.gif"></a>
-                        </td>
-                        <td><a href="5196.html">Ferus Scroll</a></td>
-                    </tr>
-                    <tr>
-                        <td>15</td>
-                        <td>
-                            <a href="5197.html"><img src="../../img/icons/ico_01020.gif"></a>
-                        </td>
-                        <td><a href="5197.html">Flora Scroll</a></td>
-                    </tr>
-                    <tr>
-                        <td>16</td>
-                        <td>
-                            <a href="5198.html"><img src="../../img/icons/ico_01204.gif"></a>
-                        </td>
-                        <td><a href="5198.html">Terra Scroll</a></td>
-                    </tr>
-                    <tr>
-                        <td>17</td>
-                        <td>
-                            <a href="5199.html"><img src="../../img/icons/ico_00878.gif"></a>
-                        </td>
-                        <td><a href="5199.html">Pyros Scroll</a></td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
-                        <td>
-                            <a href="5200.html"><img src="../../img/icons/ico_01170.gif"></a>
-                        </td>
-                        <td><a href="5200.html">Aquan Scroll</a></td>
-                    </tr>
-                    <tr>
-                        <td>19</td>
-                        <td>
-                            <a href="5212.html"><img src="../../img/icons/ico_02854.gif"></a>
-                        </td>
-                        <td><a href="5212.html">Log of Growth</a></td>
-                    </tr>
-                    <tr>
-                        <td>20</td>
-                        <td>
-                            <a href="5215.html"><img src="../../img/icons/ico_02877.gif"></a>
-                        </td>
-                        <td><a href="5215.html">Marriage License&#9794;</a></td>
-                    </tr>
-                    <tr>
-                        <td>21</td>
-                        <td>
-                            <a href="5216.html"><img src="../../img/icons/ico_02877.gif"></a>
-                        </td>
-                        <td><a href="5216.html">Marriage License&#9792;</a></td>
-                    </tr>
-                    <tr>
-                        <td>22</td>
-                        <td>
-                            <a href="5734.html"><img src="../../img/icons/ico_01106.gif"></a>
-                        </td>
-                        <td><a href="5734.html">Complete Soul</a></td>
-                    </tr>
-                    <tr>
-                        <td>23</td>
-                        <td>
-                            <a href="5735.html"><img src="../../img/icons/ico_00834.gif"></a>
-                        </td>
-                        <td><a href="5735.html">Essence of Nature</a></td>
-                    </tr>
-                    <tr>
-                        <td>24</td>
-                        <td>
-                            <a href="5736.html"><img src="../../img/icons/ico_01268.gif"></a>
-                        </td>
-                        <td><a href="5736.html">Marks of Ki</a></td>
-                    </tr>
-                    <tr>
-                        <td>25</td>
-                        <td>
-                            <a href="5738.html"><img src="../../img/icons/ico_02839.gif"></a>
-                        </td>
-                        <td><a href="5738.html">Dragonhide Whip</a></td>
-                    </tr>
-                    <tr>
-                        <td>26</td>
-                        <td>
-                            <a href="5739.html"><img src="../../img/icons/ico_01070.gif"></a>
-                        </td>
-                        <td><a href="5739.html">Nutritious Fungus</a></td>
-                    </tr>
-                    <tr>
-                        <td>27</td>
-                        <td>
-                            <a href="5749.html"><img src="../../img/icons/ico_03397.gif"></a>
-                        </td>
-                        <td><a href="5749.html">Amnision Soup</a></td>
-                    </tr>
-                    <tr>
-                        <td>28</td>
-                        <td>
-                            <a href="6008.html"><img src="../../img/icons/ico_00616.gif"></a>
-                        </td>
-                        <td><a href="6008.html">Tjefto Wine Bottle</a></td>
-                    </tr>
-                    <tr>
-                        <td>29</td>
-                        <td>
-                            <a href="6009.html"><img src="../../img/icons/ico_01033.gif"></a>
-                        </td>
-                        <td><a href="6009.html">Empty Jar</a></td>
-                    </tr>
-                    <tr>
-                        <td>30</td>
-                        <td>
-                            <a href="6010.html"><img src="../../img/icons/ico_00696.gif"></a>
-                        </td>
-                        <td><a href="6010.html">Straw Hat</a></td>
-                    </tr>
-                    <tr>
-                        <td>31</td>
-                        <td>
-                            <a href="6011.html"><img src="../../img/icons/ico_02726.gif"></a>
-                        </td>
-                        <td><a href="6011.html">Cat Eye</a></td>
-                    </tr>
-                    <tr>
-                        <td>32</td>
-                        <td>
-                            <a href="6012.html"><img src="../../img/icons/ico_01040.gif"></a>
-                        </td>
-                        <td><a href="6012.html">Cat Whisker</a></td>
-                    </tr>
-                    <tr>
-                        <td>33</td>
-                        <td>
-                            <a href="6013.html"><img src="../../img/icons/ico_01276.gif"></a>
-                        </td>
-                        <td><a href="6013.html">Lucky Orb</a></td>
-                    </tr>
-                    <tr>
-                        <td>34</td>
-                        <td>
-                            <a href="6014.html"><img src="../../img/icons/ico_01159.gif"></a>
-                        </td>
-                        <td><a href="6014.html">Mint</a></td>
-                    </tr>
-                    <tr>
-                        <td>35</td>
-                        <td>
-                            <a href="6015.html"><img src="../../img/icons/ico_01184.gif"></a>
-                        </td>
-                        <td><a href="6015.html">Pearl Necklace</a></td>
-                    </tr>
-                    <tr>
-                        <td>36</td>
-                        <td>
-                            <a href="6016.html"><img src="../../img/icons/ico_01107.gif"></a>
-                        </td>
-                        <td><a href="6016.html">Fox Tail</a></td>
-                    </tr>
-                    <tr>
-                        <td>37</td>
-                        <td>
-                            <a href="6017.html"><img src="../../img/icons/ico_01160.gif"></a>
-                        </td>
-                        <td><a href="6017.html">Dried Tree Bough</a></td>
-                    </tr>
-                    <tr>
-                        <td>38</td>
-                        <td>
-                            <a href="6018.html"><img src="../../img/icons/ico_01101.gif"></a>
-                        </td>
-                        <td><a href="6018.html">Dried Eyeball</a></td>
-                    </tr>
-                    <tr>
-                        <td>39</td>
-                        <td>
-                            <a href="6019.html"><img src="../../img/icons/ico_00789.gif"></a>
-                        </td>
-                        <td><a href="6019.html">Wood Stake</a></td>
-                    </tr>
-                    <tr>
-                        <td>40</td>
-                        <td>
-                            <a href="6020.html"><img src="../../img/icons/ico_00892.gif"></a>
-                        </td>
-                        <td><a href="6020.html">Cockroach</a></td>
-                    </tr>
-                    <tr>
-                        <td>41</td>
-                        <td>
-                            <a href="6021.html"><img src="../../img/icons/ico_01192.gif"></a>
-                        </td>
-                        <td><a href="6021.html">Big Nose</a></td>
-                    </tr>
-                    <tr>
-                        <td>42</td>
-                        <td>
-                            <a href="6022.html"><img src="../../img/icons/ico_00920.gif"></a>
-                        </td>
-                        <td><a href="6022.html">Brown Egg Shell</a></td>
-                    </tr>
-                    <tr>
-                        <td>43</td>
-                        <td>
-                            <a href="6023.html"><img src="../../img/icons/ico_01038.gif"></a>
-                        </td>
-                        <td><a href="6023.html">Bunny Hat</a></td>
-                    </tr>
-                    <tr>
-                        <td>44</td>
-                        <td>
-                            <a href="6024.html"><img src="../../img/icons/ico_00734.gif"></a>
-                        </td>
-                        <td><a href="6024.html">Short Hoe</a></td>
-                    </tr>
-                    <tr>
-                        <td>45</td>
-                        <td>
-                            <a href="6025.html"><img src="../../img/icons/ico_01183.gif"></a>
-                        </td>
-                        <td><a href="6025.html">Thick Glasses</a></td>
-                    </tr>
-                    <tr>
-                        <td>46</td>
-                        <td>
-                            <a href="6026.html"><img src="../../img/icons/ico_01240.gif"></a>
-                        </td>
-                        <td><a href="6026.html">Ancient Coin</a></td>
-                    </tr>
-                    <tr>
-                        <td>47</td>
-                        <td>
-                            <a href="6027.html"><img src="../../img/icons/ico_00841.gif"></a>
-                        </td>
-                        <td><a href="6027.html">Red Tongue</a></td>
-                    </tr>
-                    <tr>
-                        <td>48</td>
-                        <td>
-                            <a href="6028.html"><img src="../../img/icons/ico_00805.gif"></a>
-                        </td>
-                        <td><a href="6028.html">No Blink</a></td>
-                    </tr>
-                    <tr>
-                        <td>49</td>
-                        <td>
-                            <a href="6029.html"><img src="../../img/icons/ico_00639.gif"></a>
-                        </td>
-                        <td><a href="6029.html">Pen Holder</a></td>
-                    </tr>
-                    <tr>
-                        <td>50</td>
-                        <td>
-                            <a href="6030.html"><img src="../../img/icons/ico_00651.gif"></a>
-                        </td>
-                        <td><a href="6030.html">Screw</a></td>
-                    </tr>
-                </table>
-                <div class="page-count">&nbsp;Pages: <strong>1</strong> | <a href="items/page/2.html">2</a> | <a href="items/page/3.html">3</a> ... <a href="items/page/36.html">>></a> total 1795 items
+              <td class="p_head" style="vertical-align: middle">
+                <a href="index.html"
+                  ><img src="../../img/logo-mini.png" style="border: 0"
+                /></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <table>
+            <tr>
+              <td>
+                <script type="text/javascript" src="../../js/menu.js"></script>
+                <div id="ddtopmenubar" class="mattblackmenu">
+                  <ul>
+                    <li><a href="search.html" rel="ddsubmenu1">Items</a></li>
+                    <li>
+                      <a href="../mobs/search.html" rel="ddsubmenu2"
+                        >Monsters</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../pets/search.html" rel="ddsubmenu3">Pets</a>
+                    </li>
+                    <li><a href="../npc.html">NPC</a></li>
+                    <li><a href="../quests/search.html">Quests</a></li>
+                    <li>
+                      <a href="#"><font color="grey">Skills</font></a>
+                    </li>
+                  </ul>
                 </div>
-            </td>
-        </tr>
+                <script type="text/javascript">
+                  ddlevelsmenu.setup("ddtopmenubar", "topbar");
+                </script>
+                <ul id="ddsubmenu2" class="ddsubmenustyle">
+                  <li><a href="../mobs/search.html">Search</a></li>
+                  <li><a href="../mobs.html">Full List</a></li>
+                </ul>
+                <ul id="ddsubmenu3" class="ddsubmenustyle">
+                  <li><a href="search.html">Search</a></li>
+                  <li><a href="../pets.html">List</a></li>
+                  <li><a href="food.html">Pet Food</a></li>
+                  <li><a href="bells.html">Bells</a></li>
+                  <li><a href="pskills.html">Pet Skill`s</a></li>
+                </ul>
+                <ul id="ddsubmenu1" class="ddsubmenustyle">
+                  <li><a href="search.html">Search</a></li>
+                  <li>
+                    <a href="equips/weapon.html">Weapon</a>
+                    <ul>
+                      <li><a href="equips/weapon_s.html">Long spear</a></li>
+                      <li><a href="equips/weapon_d.html">Dagger</a></li>
+                      <li><a href="equips/weapon_b.html">Bow</a></li>
+                      <li><a href="equips/weapon_i.html">Invoken</a></li>
+                      <li><a href="equips/weapon_w.html">War Hammer</a></li>
+                      <li><a href="equips/weapon_t.html">Staff</a></li>
+                      <li><a href="equips/weapon_a.html">Axe</a></li>
+                      <li><a href="equips/weapon_sc.html">Scepter</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="equips/armor.html">Armor</a>
+                    <ul>
+                      <li>
+                        <a href="equips/armor_m.html">Male</a>
+                        <ul>
+                          <li>
+                            <a href="equips/armor_ms.html">S.Armor</a>
+                            <ul>
+                              <li>
+                                <a href="equips/armor_msc.html">Clothing</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_msh.html">Headwear</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_msf.html">Footwear</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="equips/armor_mg.html">G.Armor</a>
+                            <ul>
+                              <li>
+                                <a href="equips/armor_mgc.html">Clothing</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_mgh.html">Headwear</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_mgf.html">Footwear</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="equips/armor_ma.html">A.Armor</a>
+                            <ul>
+                              <li>
+                                <a href="equips/armor_mac.html">Clothing</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_mah.html">Headwear</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_maf.html">Footwear</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="equips/armor_mm.html">Mogui</a>
+                            <ul>
+                              <li>
+                                <a href="equips/armor_mmg.html">G.Armor</a>
+                                <ul>
+                                  <li>
+                                    <a href="equips/armor_mmgc.html"
+                                      >Clothing</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="equips/armor_mmgh.html"
+                                      >Headwear</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="equips/armor_mmgf.html"
+                                      >Footwear</a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="equips/armor_mma.html">A.Armor</a>
+                                <ul>
+                                  <li>
+                                    <a href="equips/armor_mmac.html"
+                                      >Clothing</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="equips/armor_mmah.html"
+                                      >Headwear</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="equips/armor_mmaf.html"
+                                      >Footwear</a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="equips/armor_f.html">Female</a>
+                        <ul>
+                          <li>
+                            <a href="equips/armor_fs.html">S.Armor</a>
+                            <ul>
+                              <li>
+                                <a href="equips/armor_fsc.html">Clothing</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_fsh.html">Headwear</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_fsf.html">Footwear</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="equips/armor_fg.html">G.Armor</a>
+                            <ul>
+                              <li>
+                                <a href="equips/armor_fgc.html">Clothing</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_fgh.html">Headwear</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_fgf.html">Footwear</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="equips/armor_fa.html">A.Armor</a>
+                            <ul>
+                              <li>
+                                <a href="equips/armor_fac.html">Clothing</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_fah.html">Headwear</a>
+                              </li>
+                              <li>
+                                <a href="equips/armor_faf.html">Footwear</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="equips/armor_fm.html">Mogui</a>
+                            <ul>
+                              <li>
+                                <a href="equips/armor_fmg.html">S.Armor</a>
+                                <ul>
+                                  <li>
+                                    <a href="equips/armor_fmgc.html"
+                                      >Clothing</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="equips/armor_fmgh.html"
+                                      >Headwear</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="equips/armor_fmgf.html"
+                                      >Footwear</a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="equips/armor_fma.html">A.Armor</a>
+                                <ul>
+                                  <li>
+                                    <a href="equips/armor_fmac.html"
+                                      >Clothing</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="equips/armor_fmah.html"
+                                      >Headwear</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="equips/armor_fmaf.html"
+                                      >Footwear</a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="equips/accessories.html">Accessories</a></li>
+                  <li><a href="equips/fashion.html">Fashion</a></li>
+                  <li><a href="imp.html">Craft</a></li>
+                  <li><a href="recipie.html">Recipie</a></li>
+                  <li><a href="cards.html">Cards</a></li>
+                  <li><a href="potions.html">Potions</a></li>
+                  <li><a href="items.html">Items</a></li>
+                  <li><a href="questi.html">Quest Items</a></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <table
+            cellspacing="3"
+            cellpadding="2"
+            border="0"
+            width="500"
+            class="ltable"
+          >
+            <tr>
+              <th width="50">�</th>
+              <th width="100">Icon</th>
+              <th width="350">Name</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>
+                <a href="131.html"
+                  ><img src="../../img/icons/ico_00979.gif"
+                /></a>
+              </td>
+              <td><a href="131.html">Gold</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <a href="133.html"
+                  ><img src="../../img/icons/ico_01148.gif"
+                /></a>
+              </td>
+              <td><a href="133.html">Angelic Bell</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                <a href="5145.html"
+                  ><img src="../../img/icons/ico_00790.gif"
+                /></a>
+              </td>
+              <td><a href="5145.html">Wood</a></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>
+                <a href="5146.html"
+                  ><img src="../../img/icons/ico_00719.gif"
+                /></a>
+              </td>
+              <td><a href="5146.html">Stone</a></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>
+                <a href="5147.html"
+                  ><img src="../../img/icons/ico_00897.gif"
+                /></a>
+              </td>
+              <td><a href="5147.html">Phoenix Copper</a></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>
+                <a href="5148.html"
+                  ><img src="../../img/icons/ico_01800.gif"
+                /></a>
+              </td>
+              <td><a href="5148.html">Kunlun Jade</a></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>
+                <a href="5149.html"
+                  ><img src="../../img/icons/ico_01029.gif"
+                /></a>
+              </td>
+              <td><a href="5149.html">Lightbender Stone</a></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>
+                <a href="5150.html"
+                  ><img src="../../img/icons/ico_01165.gif"
+                /></a>
+              </td>
+              <td><a href="5150.html">Iron Ore</a></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>
+                <a href="5151.html"
+                  ><img src="../../img/icons/ico_01187.gif"
+                /></a>
+              </td>
+              <td><a href="5151.html">Bonesetting Herbs</a></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>
+                <a href="5152.html"
+                  ><img src="../../img/icons/ico_01397.gif"
+                /></a>
+              </td>
+              <td><a href="5152.html">Acerbic Tree branch</a></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>
+                <a href="5153.html"
+                  ><img src="../../img/icons/ico_01381.gif"
+                /></a>
+              </td>
+              <td><a href="5153.html">Fortune Scroll</a></td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>
+                <a href="5191.html"
+                  ><img src="../../img/icons/ico_02851.gif"
+                /></a>
+              </td>
+              <td><a href="5191.html">Red Banded Yarn</a></td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>
+                <a href="5192.html"
+                  ><img src="../../img/icons/ico_02848.gif"
+                /></a>
+              </td>
+              <td><a href="5192.html">Ancestral Crystal</a></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>
+                <a href="5196.html"
+                  ><img src="../../img/icons/ico_00905.gif"
+                /></a>
+              </td>
+              <td><a href="5196.html">Ferus Scroll</a></td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>
+                <a href="5197.html"
+                  ><img src="../../img/icons/ico_01020.gif"
+                /></a>
+              </td>
+              <td><a href="5197.html">Flora Scroll</a></td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>
+                <a href="5198.html"
+                  ><img src="../../img/icons/ico_01204.gif"
+                /></a>
+              </td>
+              <td><a href="5198.html">Terra Scroll</a></td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>
+                <a href="5199.html"
+                  ><img src="../../img/icons/ico_00878.gif"
+                /></a>
+              </td>
+              <td><a href="5199.html">Pyros Scroll</a></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>
+                <a href="5200.html"
+                  ><img src="../../img/icons/ico_01170.gif"
+                /></a>
+              </td>
+              <td><a href="5200.html">Aquan Scroll</a></td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>
+                <a href="5212.html"
+                  ><img src="../../img/icons/ico_02854.gif"
+                /></a>
+              </td>
+              <td><a href="5212.html">Log of Growth</a></td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>
+                <a href="5215.html"
+                  ><img src="../../img/icons/ico_02877.gif"
+                /></a>
+              </td>
+              <td><a href="5215.html">Marriage License&#9794;</a></td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>
+                <a href="5216.html"
+                  ><img src="../../img/icons/ico_02877.gif"
+                /></a>
+              </td>
+              <td><a href="5216.html">Marriage License&#9792;</a></td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td>
+                <a href="5734.html"
+                  ><img src="../../img/icons/ico_01106.gif"
+                /></a>
+              </td>
+              <td><a href="5734.html">Complete Soul</a></td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>
+                <a href="5735.html"
+                  ><img src="../../img/icons/ico_00834.gif"
+                /></a>
+              </td>
+              <td><a href="5735.html">Essence of Nature</a></td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>
+                <a href="5736.html"
+                  ><img src="../../img/icons/ico_01268.gif"
+                /></a>
+              </td>
+              <td><a href="5736.html">Marks of Ki</a></td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td>
+                <a href="5738.html"
+                  ><img src="../../img/icons/ico_02839.gif"
+                /></a>
+              </td>
+              <td><a href="5738.html">Dragonhide Whip</a></td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td>
+                <a href="5739.html"
+                  ><img src="../../img/icons/ico_01070.gif"
+                /></a>
+              </td>
+              <td><a href="5739.html">Nutritious Fungus</a></td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td>
+                <a href="5749.html"
+                  ><img src="../../img/icons/ico_03397.gif"
+                /></a>
+              </td>
+              <td><a href="5749.html">Amnision Soup</a></td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td>
+                <a href="6008.html"
+                  ><img src="../../img/icons/ico_00616.gif"
+                /></a>
+              </td>
+              <td><a href="6008.html">Tjefto Wine Bottle</a></td>
+            </tr>
+            <tr>
+              <td>29</td>
+              <td>
+                <a href="6009.html"
+                  ><img src="../../img/icons/ico_01033.gif"
+                /></a>
+              </td>
+              <td><a href="6009.html">Empty Jar</a></td>
+            </tr>
+            <tr>
+              <td>30</td>
+              <td>
+                <a href="6010.html"
+                  ><img src="../../img/icons/ico_00696.gif"
+                /></a>
+              </td>
+              <td><a href="6010.html">Straw Hat</a></td>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td>
+                <a href="6011.html"
+                  ><img src="../../img/icons/ico_02726.gif"
+                /></a>
+              </td>
+              <td><a href="6011.html">Cat Eye</a></td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td>
+                <a href="6012.html"
+                  ><img src="../../img/icons/ico_01040.gif"
+                /></a>
+              </td>
+              <td><a href="6012.html">Cat Whisker</a></td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td>
+                <a href="6013.html"
+                  ><img src="../../img/icons/ico_01276.gif"
+                /></a>
+              </td>
+              <td><a href="6013.html">Lucky Orb</a></td>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td>
+                <a href="6014.html"
+                  ><img src="../../img/icons/ico_01159.gif"
+                /></a>
+              </td>
+              <td><a href="6014.html">Mint</a></td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td>
+                <a href="6015.html"
+                  ><img src="../../img/icons/ico_01184.gif"
+                /></a>
+              </td>
+              <td><a href="6015.html">Pearl Necklace</a></td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td>
+                <a href="6016.html"
+                  ><img src="../../img/icons/ico_01107.gif"
+                /></a>
+              </td>
+              <td><a href="6016.html">Fox Tail</a></td>
+            </tr>
+            <tr>
+              <td>37</td>
+              <td>
+                <a href="6017.html"
+                  ><img src="../../img/icons/ico_01160.gif"
+                /></a>
+              </td>
+              <td><a href="6017.html">Dried Tree Bough</a></td>
+            </tr>
+            <tr>
+              <td>38</td>
+              <td>
+                <a href="6018.html"
+                  ><img src="../../img/icons/ico_01101.gif"
+                /></a>
+              </td>
+              <td><a href="6018.html">Dried Eyeball</a></td>
+            </tr>
+            <tr>
+              <td>39</td>
+              <td>
+                <a href="6019.html"
+                  ><img src="../../img/icons/ico_00789.gif"
+                /></a>
+              </td>
+              <td><a href="6019.html">Wood Stake</a></td>
+            </tr>
+            <tr>
+              <td>40</td>
+              <td>
+                <a href="6020.html"
+                  ><img src="../../img/icons/ico_00892.gif"
+                /></a>
+              </td>
+              <td><a href="6020.html">Cockroach</a></td>
+            </tr>
+            <tr>
+              <td>41</td>
+              <td>
+                <a href="6021.html"
+                  ><img src="../../img/icons/ico_01192.gif"
+                /></a>
+              </td>
+              <td><a href="6021.html">Big Nose</a></td>
+            </tr>
+            <tr>
+              <td>42</td>
+              <td>
+                <a href="6022.html"
+                  ><img src="../../img/icons/ico_00920.gif"
+                /></a>
+              </td>
+              <td><a href="6022.html">Brown Egg Shell</a></td>
+            </tr>
+            <tr>
+              <td>43</td>
+              <td>
+                <a href="6023.html"
+                  ><img src="../../img/icons/ico_01038.gif"
+                /></a>
+              </td>
+              <td><a href="6023.html">Bunny Hat</a></td>
+            </tr>
+            <tr>
+              <td>44</td>
+              <td>
+                <a href="6024.html"
+                  ><img src="../../img/icons/ico_00734.gif"
+                /></a>
+              </td>
+              <td><a href="6024.html">Short Hoe</a></td>
+            </tr>
+            <tr>
+              <td>45</td>
+              <td>
+                <a href="6025.html"
+                  ><img src="../../img/icons/ico_01183.gif"
+                /></a>
+              </td>
+              <td><a href="6025.html">Thick Glasses</a></td>
+            </tr>
+            <tr>
+              <td>46</td>
+              <td>
+                <a href="6026.html"
+                  ><img src="../../img/icons/ico_01240.gif"
+                /></a>
+              </td>
+              <td><a href="6026.html">Ancient Coin</a></td>
+            </tr>
+            <tr>
+              <td>47</td>
+              <td>
+                <a href="6027.html"
+                  ><img src="../../img/icons/ico_00841.gif"
+                /></a>
+              </td>
+              <td><a href="6027.html">Red Tongue</a></td>
+            </tr>
+            <tr>
+              <td>48</td>
+              <td>
+                <a href="6028.html"
+                  ><img src="../../img/icons/ico_00805.gif"
+                /></a>
+              </td>
+              <td><a href="6028.html">No Blink</a></td>
+            </tr>
+            <tr>
+              <td>49</td>
+              <td>
+                <a href="6029.html"
+                  ><img src="../../img/icons/ico_00639.gif"
+                /></a>
+              </td>
+              <td><a href="6029.html">Pen Holder</a></td>
+            </tr>
+            <tr>
+              <td>50</td>
+              <td>
+                <a href="6030.html"
+                  ><img src="../../img/icons/ico_00651.gif"
+                /></a>
+              </td>
+              <td><a href="6030.html">Screw</a></td>
+            </tr>
+          </table>
+          <div class="page-count">
+            &nbsp;Pages: <strong>1</strong> |
+            <a href="items/page/2.html">2</a> |
+            <a href="items/page/3.html">3</a> ...
+            <a href="items/page/36.html">>></a> total 1795 items
+          </div>
+        </td>
+      </tr>
     </table>
-    <br>
-    <br>
-</body>
+    <br />
+    <br />
+  </body>
 </html>
